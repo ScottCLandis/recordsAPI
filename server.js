@@ -38,7 +38,7 @@ app.use(bodyParser.json());
 // default route
 app.get('/', function (req, res) {
     return res.send({
-        error: true,
+        error: false,
         message: 'hello'
     })
 });
